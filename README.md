@@ -1,2 +1,2 @@
 # F1-2020-Setup-Repository
-An app that allows you to create F1 track setups and configurations to be stored in a database. Specifically used for Codemasters F1 2020 game.
+An interactive JavaScript application that allows users to create F1 track setups and configurations to be stored in Firestore database. This app is specifically used for Codemasters F1 2020 game.
