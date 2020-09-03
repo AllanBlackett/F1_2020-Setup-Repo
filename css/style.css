@@ -17,26 +17,23 @@
 
 /* ................................ */
 /* Slider */
-.rangeslider{
-  width: 50%;
-  }
-
-.myslider {
-    -webkit-appearance: none;
-    background: #FCF3CF  ;
-    width: 50%;
-    height: 20px;
-    opacity: 2;
-   }
-
-   .myslider:hover {
-    opacity: 1;
+.slider {
+  -webkit-appearance: none;
+  background: #cc181e;
+  cursor: pointer;
+  height: 3px;
+  margin: 0;
+  transitionx: 0.1s ease-in;
+  vertical-align: bottom;
+      
 }
 
-.myslider::-webkit-slider-thumb {
+.slider::-webkit-slider-thumb {
   -webkit-appearance: none;
-  cursor: pointer;
-  background: #34495E  ;
-  width: 5%;
-  height: 20px;
+  background: #aeaeae;
+  border-radius: 8px;
+  box-shadow: inset 0 0 0 5px #eaeaea;
+  height: 0;
+  transitionx: 0.1s ease-in;
+  width: 0;
 }
